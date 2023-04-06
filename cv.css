@@ -1,33 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-size: large;
-    
+
 }
 
-.header{
+.header {
     margin: 5px;
     padding: 5px;
     display: flex;
     background-color: darkgray;
-    
+
     align-items: center;
     border-radius: 10px;
 
 }
 
-.foto1{
+.foto1 {
     border: 1px solid;
     border-radius: 400px;
     width: 200px;
     flex: 3;
 
-    
+
 }
 
-.headclass{
+.headclass {
     font-weight: bold;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,44 +38,47 @@
 
 }
 
-.main{
+.main {
     border: 1px solid;
     margin: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.left{
-   
+.left {
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
     background-color: burlywood;
+    justify-content: center;
+    text-transform: none;
+    text-justify: newspaper;
 }
 
-.contactbar{
-    
+.contactbar {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-   font-size: 18px;
+    font-size: 18px;
     gap: 30px;
     margin-top: 30px;
     padding: 10px;
     padding-bottom: 50px;
     padding-top: 10px;
     border-radius: 10px;
-    
-    
+
+
 }
 
-.contacth1{
-   
+.contacth1 {
+
     margin: 5px;
     padding: 10px;
     display: flex;
@@ -84,36 +87,37 @@
     padding-bottom: 40px;
     padding-top: 80px;
     border-radius: 10px;
-    
+
 }
 
-.right{
-    border: 1px solid;
+.right {
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 10px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
     gap: 10px;
-    font-weight: 500;
+    font-weight: 400;
     padding-top: 20px;
     border-radius: 10px;
     background-color: rgb(185, 233, 235);
 }
 
-.cvletterHead{
-   
-    
+.cvletterHead {
+
+
     margin: 10px;
     padding: 10px;
     font-size: larger;
     margin-top: 50px;
 }
 
-.letter{
-   
+.letter {
+    font-family: Arial, Helvetica, sans-serif;
+
     margin: 10px;
     padding: 20px;
     padding-bottom: 50px;
